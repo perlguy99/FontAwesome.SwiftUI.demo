@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E304FA24BD365000D151FE /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304EB24BD365000D151FE /* FontAwesomeImageView.swift */; };
+		84E304FB24BD365000D151FE /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304EC24BD365000D151FE /* FontAwesome.swift */; };
+		84E304FC24BD365000D151FE /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304ED24BD365000D151FE /* FontAwesomeImageRepresentable.swift */; };
+		84E304FD24BD365000D151FE /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304EE24BD365000D151FE /* FontAwesomeStateRequirement.swift */; };
+		84E304FE24BD365000D151FE /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304EF24BD365000D151FE /* FontAwesomeSegmentedControl.swift */; };
+		84E304FF24BD365000D151FE /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F024BD365000D151FE /* Enum.swift */; };
+		84E3050024BD365000D151FE /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F124BD365000D151FE /* FontAwesomeBarButtonItem.swift */; };
+		84E3050124BD365000D151FE /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F224BD365000D151FE /* FontAwesomeTextRepresentable.swift */; };
+		84E3050224BD365000D151FE /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E304F324BD365000D151FE /* Font Awesome 5 Free-Solid-900.otf */; };
+		84E3050324BD365000D151FE /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E304F524BD365000D151FE /* Font Awesome 5 Free-Regular-400.otf */; };
+		84E3050424BD365000D151FE /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F624BD365000D151FE /* FontAwesomeTabBarItem.swift */; };
+		84E3050524BD365000D151FE /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F724BD365000D151FE /* FontAwesomeView.swift */; };
+		84E3050624BD365000D151FE /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F824BD365000D151FE /* FontAwesomeExtension.swift */; };
+		84E3050724BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E304F924BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf */; };
+		84ED5E2924BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5E2824BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift */; };
+		84ED5E2B24BD3251006488A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5E2A24BD3251006488A3 /* ContentView.swift */; };
+		84ED5E2D24BD3252006488A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED5E2C24BD3252006488A3 /* Assets.xcassets */; };
+		84ED5E3024BD3252006488A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED5E2F24BD3252006488A3 /* Preview Assets.xcassets */; };
+		84ED5E3B24BD3252006488A3 /* FontAwesome_SwiftUI_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5E3A24BD3252006488A3 /* FontAwesome_SwiftUI_demoTests.swift */; };
+		84ED5E4624BD3252006488A3 /* FontAwesome_SwiftUI_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5E4524BD3252006488A3 /* FontAwesome_SwiftUI_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84ED5E3724BD3252006488A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ED5E1D24BD3251006488A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84ED5E2424BD3251006488A3;
+			remoteInfo = FontAwesome.SwiftUI.demo;
+		};
+		84ED5E4224BD3252006488A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84ED5E1D24BD3251006488A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84ED5E2424BD3251006488A3;
+			remoteInfo = FontAwesome.SwiftUI.demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E304EB24BD365000D151FE /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeImageView.swift; sourceTree = "<group>"; };
+		84E304EC24BD365000D151FE /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		84E304ED24BD365000D151FE /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
+		84E304EE24BD365000D151FE /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
+		84E304EF24BD365000D151FE /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
+		84E304F024BD365000D151FE /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		84E304F124BD365000D151FE /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
+		84E304F224BD365000D151FE /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		84E304F324BD365000D151FE /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		84E304F424BD365000D151FE /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
+		84E304F524BD365000D151FE /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		84E304F624BD365000D151FE /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		84E304F724BD365000D151FE /* FontAwesomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeView.swift; sourceTree = "<group>"; };
+		84E304F824BD365000D151FE /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeExtension.swift; sourceTree = "<group>"; };
+		84E304F924BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		84ED5E2524BD3251006488A3 /* FontAwesome.SwiftUI.demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesome.SwiftUI.demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ED5E2824BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesome_SwiftUI_demoApp.swift; sourceTree = "<group>"; };
+		84ED5E2A24BD3251006488A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84ED5E2C24BD3252006488A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84ED5E2F24BD3252006488A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84ED5E3124BD3252006488A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ED5E3624BD3252006488A3 /* FontAwesome.SwiftUI.demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.SwiftUI.demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ED5E3A24BD3252006488A3 /* FontAwesome_SwiftUI_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesome_SwiftUI_demoTests.swift; sourceTree = "<group>"; };
+		84ED5E3C24BD3252006488A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ED5E4124BD3252006488A3 /* FontAwesome.SwiftUI.demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.SwiftUI.demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ED5E4524BD3252006488A3 /* FontAwesome_SwiftUI_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesome_SwiftUI_demoUITests.swift; sourceTree = "<group>"; };
+		84ED5E4724BD3252006488A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ED5E5324BD328C006488A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ED5E2224BD3251006488A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ED5E3324BD3252006488A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ED5E3E24BD3252006488A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E304EA24BD362700D151FE /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				84E304F024BD365000D151FE /* Enum.swift */,
+				84E304F924BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf */,
+				84E304F524BD365000D151FE /* Font Awesome 5 Free-Regular-400.otf */,
+				84E304F324BD365000D151FE /* Font Awesome 5 Free-Solid-900.otf */,
+				84E304F424BD365000D151FE /* FontAwesome.h */,
+				84E304EC24BD365000D151FE /* FontAwesome.swift */,
+				84E304F124BD365000D151FE /* FontAwesomeBarButtonItem.swift */,
+				84E304F824BD365000D151FE /* FontAwesomeExtension.swift */,
+				84E304ED24BD365000D151FE /* FontAwesomeImageRepresentable.swift */,
+				84E304EB24BD365000D151FE /* FontAwesomeImageView.swift */,
+				84E304EF24BD365000D151FE /* FontAwesomeSegmentedControl.swift */,
+				84E304EE24BD365000D151FE /* FontAwesomeStateRequirement.swift */,
+				84E304F624BD365000D151FE /* FontAwesomeTabBarItem.swift */,
+				84E304F224BD365000D151FE /* FontAwesomeTextRepresentable.swift */,
+				84E304F724BD365000D151FE /* FontAwesomeView.swift */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
+		84ED5E1C24BD3251006488A3 = {
+			isa = PBXGroup;
+			children = (
+				84E304EA24BD362700D151FE /* FontAwesome */,
+				84ED5E5324BD328C006488A3 /* README.md */,
+				84ED5E2724BD3251006488A3 /* FontAwesome.SwiftUI.demo */,
+				84ED5E3924BD3252006488A3 /* FontAwesome.SwiftUI.demoTests */,
+				84ED5E4424BD3252006488A3 /* FontAwesome.SwiftUI.demoUITests */,
+				84ED5E2624BD3251006488A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84ED5E2624BD3251006488A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ED5E2524BD3251006488A3 /* FontAwesome.SwiftUI.demo.app */,
+				84ED5E3624BD3252006488A3 /* FontAwesome.SwiftUI.demoTests.xctest */,
+				84ED5E4124BD3252006488A3 /* FontAwesome.SwiftUI.demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ED5E2724BD3251006488A3 /* FontAwesome.SwiftUI.demo */ = {
+			isa = PBXGroup;
+			children = (
+				84ED5E2824BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift */,
+				84ED5E2A24BD3251006488A3 /* ContentView.swift */,
+				84ED5E2C24BD3252006488A3 /* Assets.xcassets */,
+				84ED5E3124BD3252006488A3 /* Info.plist */,
+				84ED5E2E24BD3252006488A3 /* Preview Content */,
+			);
+			path = FontAwesome.SwiftUI.demo;
+			sourceTree = "<group>";
+		};
+		84ED5E2E24BD3252006488A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84ED5E2F24BD3252006488A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84ED5E3924BD3252006488A3 /* FontAwesome.SwiftUI.demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84ED5E3A24BD3252006488A3 /* FontAwesome_SwiftUI_demoTests.swift */,
+				84ED5E3C24BD3252006488A3 /* Info.plist */,
+			);
+			path = FontAwesome.SwiftUI.demoTests;
+			sourceTree = "<group>";
+		};
+		84ED5E4424BD3252006488A3 /* FontAwesome.SwiftUI.demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84ED5E4524BD3252006488A3 /* FontAwesome_SwiftUI_demoUITests.swift */,
+				84ED5E4724BD3252006488A3 /* Info.plist */,
+			);
+			path = FontAwesome.SwiftUI.demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84ED5E2424BD3251006488A3 /* FontAwesome.SwiftUI.demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ED5E4A24BD3252006488A3 /* Build configuration list for PBXNativeTarget "FontAwesome.SwiftUI.demo" */;
+			buildPhases = (
+				84ED5E2124BD3251006488A3 /* Sources */,
+				84ED5E2224BD3251006488A3 /* Frameworks */,
+				84ED5E2324BD3251006488A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesome.SwiftUI.demo;
+			productName = FontAwesome.SwiftUI.demo;
+			productReference = 84ED5E2524BD3251006488A3 /* FontAwesome.SwiftUI.demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84ED5E3524BD3252006488A3 /* FontAwesome.SwiftUI.demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ED5E4D24BD3252006488A3 /* Build configuration list for PBXNativeTarget "FontAwesome.SwiftUI.demoTests" */;
+			buildPhases = (
+				84ED5E3224BD3252006488A3 /* Sources */,
+				84ED5E3324BD3252006488A3 /* Frameworks */,
+				84ED5E3424BD3252006488A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84ED5E3824BD3252006488A3 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.SwiftUI.demoTests;
+			productName = FontAwesome.SwiftUI.demoTests;
+			productReference = 84ED5E3624BD3252006488A3 /* FontAwesome.SwiftUI.demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84ED5E4024BD3252006488A3 /* FontAwesome.SwiftUI.demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ED5E5024BD3252006488A3 /* Build configuration list for PBXNativeTarget "FontAwesome.SwiftUI.demoUITests" */;
+			buildPhases = (
+				84ED5E3D24BD3252006488A3 /* Sources */,
+				84ED5E3E24BD3252006488A3 /* Frameworks */,
+				84ED5E3F24BD3252006488A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84ED5E4324BD3252006488A3 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.SwiftUI.demoUITests;
+			productName = FontAwesome.SwiftUI.demoUITests;
+			productReference = 84ED5E4124BD3252006488A3 /* FontAwesome.SwiftUI.demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ED5E1D24BD3251006488A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					84ED5E2424BD3251006488A3 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					84ED5E3524BD3252006488A3 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 84ED5E2424BD3251006488A3;
+					};
+					84ED5E4024BD3252006488A3 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 84ED5E2424BD3251006488A3;
+					};
+				};
+			};
+			buildConfigurationList = 84ED5E2024BD3251006488A3 /* Build configuration list for PBXProject "FontAwesome.SwiftUI.demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84ED5E1C24BD3251006488A3;
+			productRefGroup = 84ED5E2624BD3251006488A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ED5E2424BD3251006488A3 /* FontAwesome.SwiftUI.demo */,
+				84ED5E3524BD3252006488A3 /* FontAwesome.SwiftUI.demoTests */,
+				84ED5E4024BD3252006488A3 /* FontAwesome.SwiftUI.demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84ED5E2324BD3251006488A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3050724BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				84E3050224BD365000D151FE /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+				84E3050324BD365000D151FE /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				84ED5E3024BD3252006488A3 /* Preview Assets.xcassets in Resources */,
+				84ED5E2D24BD3252006488A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ED5E3424BD3252006488A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ED5E3F24BD3252006488A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ED5E2124BD3251006488A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E304FB24BD365000D151FE /* FontAwesome.swift in Sources */,
+				84E304FC24BD365000D151FE /* FontAwesomeImageRepresentable.swift in Sources */,
+				84E304FF24BD365000D151FE /* Enum.swift in Sources */,
+				84E3050624BD365000D151FE /* FontAwesomeExtension.swift in Sources */,
+				84E304FD24BD365000D151FE /* FontAwesomeStateRequirement.swift in Sources */,
+				84E3050124BD365000D151FE /* FontAwesomeTextRepresentable.swift in Sources */,
+				84E3050424BD365000D151FE /* FontAwesomeTabBarItem.swift in Sources */,
+				84E304FE24BD365000D151FE /* FontAwesomeSegmentedControl.swift in Sources */,
+				84E304FA24BD365000D151FE /* FontAwesomeImageView.swift in Sources */,
+				84ED5E2B24BD3251006488A3 /* ContentView.swift in Sources */,
+				84E3050024BD365000D151FE /* FontAwesomeBarButtonItem.swift in Sources */,
+				84ED5E2924BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift in Sources */,
+				84E3050524BD365000D151FE /* FontAwesomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ED5E3224BD3252006488A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ED5E3B24BD3252006488A3 /* FontAwesome_SwiftUI_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84ED5E3D24BD3252006488A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ED5E4624BD3252006488A3 /* FontAwesome_SwiftUI_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84ED5E3824BD3252006488A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84ED5E2424BD3251006488A3 /* FontAwesome.SwiftUI.demo */;
+			targetProxy = 84ED5E3724BD3252006488A3 /* PBXContainerItemProxy */;
+		};
+		84ED5E4324BD3252006488A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84ED5E2424BD3251006488A3 /* FontAwesome.SwiftUI.demo */;
+			targetProxy = 84ED5E4224BD3252006488A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84ED5E4824BD3252006488A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84ED5E4924BD3252006488A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ED5E4B24BD3252006488A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FontAwesome.SwiftUI.demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 833AT2F722;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FontAwesome.SwiftUI.demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perlguy.FontAwesome-SwiftUI-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84ED5E4C24BD3252006488A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FontAwesome.SwiftUI.demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 833AT2F722;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FontAwesome.SwiftUI.demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perlguy.FontAwesome-SwiftUI-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84ED5E4E24BD3252006488A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 833AT2F722;
+				INFOPLIST_FILE = FontAwesome.SwiftUI.demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perlguy.FontAwesome-SwiftUI-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAwesome.SwiftUI.demo.app/FontAwesome.SwiftUI.demo";
+			};
+			name = Debug;
+		};
+		84ED5E4F24BD3252006488A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 833AT2F722;
+				INFOPLIST_FILE = FontAwesome.SwiftUI.demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perlguy.FontAwesome-SwiftUI-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAwesome.SwiftUI.demo.app/FontAwesome.SwiftUI.demo";
+			};
+			name = Release;
+		};
+		84ED5E5124BD3252006488A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 833AT2F722;
+				INFOPLIST_FILE = FontAwesome.SwiftUI.demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perlguy.FontAwesome-SwiftUI-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FontAwesome.SwiftUI.demo;
+			};
+			name = Debug;
+		};
+		84ED5E5224BD3252006488A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 833AT2F722;
+				INFOPLIST_FILE = FontAwesome.SwiftUI.demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perlguy.FontAwesome-SwiftUI-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FontAwesome.SwiftUI.demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ED5E2024BD3251006488A3 /* Build configuration list for PBXProject "FontAwesome.SwiftUI.demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ED5E4824BD3252006488A3 /* Debug */,
+				84ED5E4924BD3252006488A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ED5E4A24BD3252006488A3 /* Build configuration list for PBXNativeTarget "FontAwesome.SwiftUI.demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ED5E4B24BD3252006488A3 /* Debug */,
+				84ED5E4C24BD3252006488A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ED5E4D24BD3252006488A3 /* Build configuration list for PBXNativeTarget "FontAwesome.SwiftUI.demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ED5E4E24BD3252006488A3 /* Debug */,
+				84ED5E4F24BD3252006488A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ED5E5024BD3252006488A3 /* Build configuration list for PBXNativeTarget "FontAwesome.SwiftUI.demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ED5E5124BD3252006488A3 /* Debug */,
+				84ED5E5224BD3252006488A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84ED5E1D24BD3251006488A3 /* Project object */;
+}
