@@ -21,6 +21,9 @@
 		84E3050524BD365000D151FE /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F724BD365000D151FE /* FontAwesomeView.swift */; };
 		84E3050624BD365000D151FE /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E304F824BD365000D151FE /* FontAwesomeExtension.swift */; };
 		84E3050724BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E304F924BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf */; };
+		84E3050924BD36D200D151FE /* FontCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3050824BD36D200D151FE /* FontCollectionView.swift */; };
+		84E3050B24BD370D00D151FE /* FontCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3050A24BD370D00D151FE /* FontCellView.swift */; };
+		84E3050D24BD375B00D151FE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3050C24BD375B00D151FE /* SettingsView.swift */; };
 		84ED5E2924BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5E2824BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift */; };
 		84ED5E2B24BD3251006488A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED5E2A24BD3251006488A3 /* ContentView.swift */; };
 		84ED5E2D24BD3252006488A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED5E2C24BD3252006488A3 /* Assets.xcassets */; };
@@ -62,6 +65,9 @@
 		84E304F724BD365000D151FE /* FontAwesomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeView.swift; sourceTree = "<group>"; };
 		84E304F824BD365000D151FE /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeExtension.swift; sourceTree = "<group>"; };
 		84E304F924BD365000D151FE /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		84E3050824BD36D200D151FE /* FontCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontCollectionView.swift; sourceTree = "<group>"; };
+		84E3050A24BD370D00D151FE /* FontCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontCellView.swift; sourceTree = "<group>"; };
+		84E3050C24BD375B00D151FE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		84ED5E2524BD3251006488A3 /* FontAwesome.SwiftUI.demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesome.SwiftUI.demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ED5E2824BD3251006488A3 /* FontAwesome_SwiftUI_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesome_SwiftUI_demoApp.swift; sourceTree = "<group>"; };
 		84ED5E2A24BD3251006488A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +160,9 @@
 				84ED5E2C24BD3252006488A3 /* Assets.xcassets */,
 				84ED5E3124BD3252006488A3 /* Info.plist */,
 				84ED5E2E24BD3252006488A3 /* Preview Content */,
+				84E3050824BD36D200D151FE /* FontCollectionView.swift */,
+				84E3050C24BD375B00D151FE /* SettingsView.swift */,
+				84E3050A24BD370D00D151FE /* FontCellView.swift */,
 			);
 			path = FontAwesome.SwiftUI.demo;
 			sourceTree = "<group>";
@@ -319,11 +328,14 @@
 				84E304FB24BD365000D151FE /* FontAwesome.swift in Sources */,
 				84E304FC24BD365000D151FE /* FontAwesomeImageRepresentable.swift in Sources */,
 				84E304FF24BD365000D151FE /* Enum.swift in Sources */,
+				84E3050924BD36D200D151FE /* FontCollectionView.swift in Sources */,
 				84E3050624BD365000D151FE /* FontAwesomeExtension.swift in Sources */,
 				84E304FD24BD365000D151FE /* FontAwesomeStateRequirement.swift in Sources */,
 				84E3050124BD365000D151FE /* FontAwesomeTextRepresentable.swift in Sources */,
 				84E3050424BD365000D151FE /* FontAwesomeTabBarItem.swift in Sources */,
 				84E304FE24BD365000D151FE /* FontAwesomeSegmentedControl.swift in Sources */,
+				84E3050D24BD375B00D151FE /* SettingsView.swift in Sources */,
+				84E3050B24BD370D00D151FE /* FontCellView.swift in Sources */,
 				84E304FA24BD365000D151FE /* FontAwesomeImageView.swift in Sources */,
 				84ED5E2B24BD3251006488A3 /* ContentView.swift in Sources */,
 				84E3050024BD365000D151FE /* FontAwesomeBarButtonItem.swift in Sources */,
